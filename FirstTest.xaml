@@ -1,0 +1,24 @@
+﻿<Window x:Class="Курсовая_Прод.FirstTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая_Прод"
+        mc:Ignorable="d"
+        Title="FirstTest" Height="450" Width="800"
+        ResizeMode="NoResize"
+          Background="#1D7074"
+        WindowState="Maximized">
+    <Grid>
+        <Grid>
+            <StackPanel Margin="10">
+                <TextBlock Foreground="#FF7600" Text="{Binding Question}" FontSize="20" Margin="0 0 0 20" FontWeight="Bold"/>
+                <RadioButton  FontWeight="Bold" Foreground="#FFB473" Content="{Binding Answer1}" IsChecked="{Binding IsAnswer1Checked}" Margin="0 0 0 10"/>
+                <RadioButton  FontWeight="Bold" Foreground="#FFB473"  Content="{Binding Answer2}" IsChecked="{Binding IsAnswer2Checked}" Margin="0 0 0 10"/>
+                <RadioButton  FontWeight="Bold" Foreground="#FFB473" Content="{Binding Answer3}" IsChecked="{Binding IsAnswer3Checked}" Margin="0 0 0 10"/>
+                <Button Background="#FFB473" Content="Ответить" Click="AnswerButton_Click" Margin="0 20 0 0" Height="50" FontSize="20" FontWeight="Bold"/>
+                <TextBlock Foreground="#FF7600" Text="{Binding CorrectAnswersCount, StringFormat='Количество правильных ответов: \{0\}'}" Margin="0 20 0 0" FontWeight="Bold"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

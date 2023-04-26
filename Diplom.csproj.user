@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FirstTest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LectureWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MasterList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MasterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MasterWindowLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NewStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SecondTest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentTestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Student_WindowLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ThirdTest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="FirstTest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LectureWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MasterList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MasterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MasterWindowLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SecondTest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentTestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Student_WindowLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThirdTest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

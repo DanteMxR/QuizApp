@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "X9wYhPEN/TyUvYhK+UwSH0qncJuvxjVSY2pwemxV4c/ucBsV87D2X5jZLLNBHfZTPqLJmIprmMIcAAKnpnvqwA==",
+  "success": true,
+  "projectFilePath": "D:\\Програмирование\\Курсовая-Прод\\Diplom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дмитрий Рящиков\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
